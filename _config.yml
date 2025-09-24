@@ -350,7 +350,6 @@ plugins:
   - jekyll-avatar
   - jekyll-scholar
   - jekyll-remote-theme
-  - jemoji
 
 scholar:
   style: apa.csl       # or another citation style like chicago
