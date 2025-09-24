@@ -36,11 +36,11 @@ gem "kramdown-math-katex"
 gem "duktape"
 
 # Required for `jekyll serve` in Ruby 3
-gem "webrick"
-
 gem "jekyll-avatar"
 
 gem "jekyll-scholar", "~> 7.0"
+
+gem "jekyll-remote-theme"
 
 # Uncomment when using the `--lsi` option for `jekyll build`
 # gem "classifier-reborn"
@@ -66,3 +66,4 @@ end
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
+gem "webrick", "~> 1.8"
