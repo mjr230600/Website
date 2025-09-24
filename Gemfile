@@ -38,6 +38,10 @@ gem "duktape"
 # Required for `jekyll serve` in Ruby 3
 gem "webrick"
 
+gem "jekyll-avatar"
+
+gem "jekyll-scholar", "~> 7.0"
+
 # Uncomment when using the `--lsi` option for `jekyll build`
 # gem "classifier-reborn"
 
