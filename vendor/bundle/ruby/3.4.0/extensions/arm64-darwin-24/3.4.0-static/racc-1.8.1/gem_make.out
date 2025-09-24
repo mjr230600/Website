@@ -1,0 +1,18 @@
+current directory: /Users/qy18665/Documents/Website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/qy18665/.rubies/ruby-3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/qy18665/Documents/Website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250829-25823-rlzrbz sitelibdir\=./.gem.20250829-25823-rlzrbz clean
+
+current directory: /Users/qy18665/Documents/Website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250829-25823-rlzrbz sitelibdir\=./.gem.20250829-25823-rlzrbz
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/qy18665/Documents/Website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250829-25823-rlzrbz sitelibdir\=./.gem.20250829-25823-rlzrbz install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250829-25823-rlzrbz/racc
+
+current directory: /Users/qy18665/Documents/Website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250829-25823-rlzrbz sitelibdir\=./.gem.20250829-25823-rlzrbz clean

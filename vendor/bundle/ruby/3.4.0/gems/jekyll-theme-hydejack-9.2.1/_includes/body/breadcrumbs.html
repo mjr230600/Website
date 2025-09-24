@@ -1,0 +1,13 @@
+<nav id="breadcrumbs" class="screen-only">
+  <ul>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    {% if page.breadcrumb_parent %}
+      <li><span>/</span> 
+          <a href="{{ page.breadcrumb_parent.url | relative_url }}">
+            {{ page.breadcrumb_parent.title }}
+          </a>
+      </li>
+    {% endif %}
+    <li><span>/</span> <span>{{ page.title }}</span></li>
+  </ul>
+</nav>

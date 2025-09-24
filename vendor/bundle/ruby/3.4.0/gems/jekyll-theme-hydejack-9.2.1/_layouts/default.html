@@ -1,0 +1,70 @@
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+layout: base
+---
+
+{% assign strings = site.data.strings %}
+
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+
+  {{ content }}
+
+<h2>Pages</h2>
+<ul class="related-posts">
+  <li class="h4">
+    <a href="{{ '/publications/' | relative_url }}" class="flip-title">
+      <span>Publications</span>
+    </a>
+  </li>
+</ul>
+
+</article>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("a[href^='http']").forEach(link => {
+      if (link.hostname !== window.location.hostname) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      }
+    });
+  });
+</script> -->
+
+<!-- other scripts -->
+<script>
+function setExternalLinks() {
+  document.querySelectorAll("a[href^='http']").forEach(link => {
+    if (link.hostname !== window.location.hostname) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
+  });
+}
+
+// Run on initial page load
+document.addEventListener("DOMContentLoaded", setExternalLinks);
+
+// Run after each hy-push-state load
+document.getElementById('_pushState').addEventListener('hy-push-state-after', setExternalLinks);
+</script>
+</body>
+</html>
