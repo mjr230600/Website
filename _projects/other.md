@@ -17,7 +17,7 @@ I spent the summers of my undergraduate degree getting involved in a variety of 
 </a>
 
 <figure style="float: left; margin-right: 20px; margin-bottom: 10px; text-align: center; width: 250px;">
-  <img src="/assets/img/chlorophyll.jpg" alt="Chlorophyll"
+  <img src="{{ '/assets/img/chlorophyll.jpg' | relative_url }}" alt="Chlorophyll"
        style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%;">
   <figcaption style="font-size: 0.9em; color: gray; margin-top: 5px;">
     By measuring the carbon isotope compositions of phytane and pristane, molecules formed when chlorophyll (above) breaks down, we can estimate atmospheric CO<sub>2</sub> concentrations more than 500 million years back in time. Image credit: The Tree Center.
@@ -39,7 +39,7 @@ Working with [Dr Cait Witkowski](https://www.bristol.ac.uk/people/person/Caitlyn
 </a>
 
 <figure style="float: right; margin-left: 20px; margin-bottom: 10px; text-align: center; width: 250px;">
-  <img src="/assets/img/crater_lake.jpg" alt="Crater Lake"
+  <img src="{{ '/assets/img/crater_lake.jpg' | relative_url }}" alt="Crater Lake"
        style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%;">
   <figcaption style="font-size: 0.9em; color: gray; margin-top: 5px;">
     Mount Mazama/Crater Lake, Oregon. Image credit: Chantal Anderson.

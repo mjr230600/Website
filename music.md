@@ -9,7 +9,7 @@ In my spare time, I am an avid performing musician! Whilst I keep my love of jaz
 I am very keen to get involved in other freelance musical ventures, so if you are an orchestra, musical theatre group, or other ensemble looking for a percussionist, please don't hesitate to get in touch at <a href="mailto:matthewroche@hotmail.co.uk" style="color: #1E90FF;">matthewroche@hotmail.co.uk</a>!
 
 <figure style="text-align: center; margin: 20px 0;">
-  <img src="/assets/img/cory_band.jpg" alt="Cory Band'"
+  <img src="{{ '/assets/img/cory_band.jpg' | relative_url }}" alt="Cory Band'"
        style="width: 100%; height: auto; object-fit: cover;">
   <figcaption style="font-size: 0.9em; color: gray; margin-top: 5px;">
     Competing with the Cory Band at the European Brass Band Championships 2025 in Stavanger, Norway. Image credit: <a href="https://chappersphoto.co.uk/" target="_blank" rel="noopener noreferrer">chappersphoto.co.uk</a>

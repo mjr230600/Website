@@ -14,7 +14,7 @@ breadcrumb_parent:
 </a>
 
 <figure style="float: right; margin-left: 20px; margin-bottom: 10px; text-align: center; width: 250px;">
-  <img src="/assets/img/enceladus_plumes.jpg" alt="Enceladus' plumes"
+  <img src="{{ '/assets/img/enceladus_plumes.jpg' | relative_url }}" alt="Enceladus' plumes"
        style="width: 250px; height: 250px; object-fit: cover; object-position: center; border-radius: 50%;">
   <figcaption style="font-size: 0.9em; color: gray; margin-top: 5px;">
     An illustration of the Cassini spacecraft's flight through Enceladus' water-rich plumes. Image credit: NASA/JPL-Caltech.
@@ -28,7 +28,7 @@ Enceladus' ocean is being spewed out into space from giant cryovolcanic plumes a
 On Earth, microbes can use a suite of different redox-sensitive elements for their metabolism, yet whether any of these other pathways could be viable at Enceladus as well as the proposed methanogens has received limited attention. Microbial respiration of iron is the primary control on the mobility and reactivity of iron in the environment on Earth, and can be biotically transformed between its soluble ferrous – Fe(II) – and insoluble ferric – Fe(III) – states via a variety of different pathways, one of which involves H<sub>2</sub>. Some of the earliest forms of life on Earth are thought to have used iron for their metabolism. Iron is expected to be present inside minerals that make up Enceladus' rocky seafloor, and since H<sub>2</sub> has been detected in its plumes, could microbial life use these ingredients for its metabolism?
 
 <figure style="text-align: center; margin: 20px 0;">
-  <img src="/assets/img/enceladus_interior.jpg" alt="Enceladus' interior'"
+  <img src="{{ '/assets/img/enceladus_interior.jpg' | relative_url }}" alt="Enceladus' interior'"
        style="width: 100%; height: auto; object-fit: cover;">
   <figcaption style="font-size: 0.9em; color: gray; margin-top: 5px;">
     Our best picture to date of Enceladus' interior and the processes that operate inside it. Image credit: Matt Roche MSci thesis.
