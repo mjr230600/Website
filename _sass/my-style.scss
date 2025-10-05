@@ -114,3 +114,46 @@
   text-decoration: underline;
   color: var(--accent-color);
 }
+
+/* === Research Page Cards Fixes === */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  display: block !important;  /* prevent Hydejack flex override */
+  background: var(--bg);
+  color: inherit;
+  text-decoration: none;
+  border-radius: 0 !important;   /* no rounded corners */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform, box-shadow;
+  transform-style: preserve-3d;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;           /* keep same height as before */
+  object-fit: cover;
+  display: block;
+}
+
+.project-card h3,
+.project-card p {
+  margin: 0;               /* keep title & text tightly together */
+  padding: 0 1rem;
+}
+
+.project-card .caption {
+  padding: 0.25rem 0rem 0rem;  /* extra padding at bottom of box */
+}
+
+.project-card:hover {
+  transform: translateY(-6px) scale(1.015);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
