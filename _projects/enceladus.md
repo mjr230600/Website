@@ -7,6 +7,7 @@ order: 2
 breadcrumb_parent: 
   url: "/research/"
   title: "Research"
+permalink: /research/enceladus/
 ---
 
 <a href="{{ '/assets/publications/Roche-2023-Iron_reduction_as_a_viable_metabolic_pathway_in_Enceladus_ocean.pdf' | relative_url }}" style="color: #1E90FF" target="_blank">

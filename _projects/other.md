@@ -7,6 +7,7 @@ order: 3
 breadcrumb_parent: 
   url: "/research/"
   title: "Research"
+permalink: /research/other/
 ---
 
 I spent the summers of my undergraduate degree getting involved in a variety of different research projects and finding out the things that interested me most. Here are two particular highlights!

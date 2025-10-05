@@ -11,7 +11,7 @@ permalink: /
        style="width: 160px; height: 160px; object-fit: cover; object-position: center; border-radius: 50%;">
 </figure>
 
-I just returned from presenting my work at the EPSC–DPS joint meeting in Helsinki, Finland!
+I just returned from presenting my work at the EPSC–DPS joint meeting in Helsinki, Finland! It was great to catch up with friends and colleagues from other institutions worldwide, and learn about the cutting edge science taking place in the field!
 
 <div style="clear: both; margin-bottom: 10px;"></div>
 
