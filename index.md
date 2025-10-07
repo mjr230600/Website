@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: cover
 title: "News"
+cover: true
 permalink: /
 ---
 

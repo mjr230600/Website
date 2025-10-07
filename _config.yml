@@ -197,6 +197,8 @@ kramdown:
 hydejack:
   author:              author1
 
+  index_layout:        cover
+
   # Configure the order of complementary content on blog posts
   post_addons:         [about, newsletter, related, random, comments]
 
