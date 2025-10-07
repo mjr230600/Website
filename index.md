@@ -1,7 +1,7 @@
 ---
-layout: home
-title: "News"
-permalink: /
+layout: default
+title:  News
+cover:  true #!! Add this
 ---
 
 ## 🇫🇮 15/09/25 EPSC–DPS Conference 🇫🇮
