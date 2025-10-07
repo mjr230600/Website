@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "News"
-permalink: /news/
+permalink: /
 ---
 
 ## 🇫🇮 15/09/25 EPSC–DPS Conference 🇫🇮
