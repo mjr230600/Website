@@ -1,5 +1,5 @@
 ---
-layout: cover
+layout: home
 title: "News"
 cover: true
 permalink: /
