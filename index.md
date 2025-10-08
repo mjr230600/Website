@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  
+title:  ""
 cover:  true #!! Add this
 ---
 
