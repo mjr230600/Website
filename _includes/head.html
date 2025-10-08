@@ -1,0 +1,18 @@
+{% comment %}
+This file overrides Hydejack's default <head> block to customize the title.
+{% endcomment %}
+{% capture title %}
+  {% if page.title and page.title != 'Home' %}
+    {{ page.title }} | {{ site.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+{% endcapture %}
+
+<title>{{ title | strip }}</title>
+
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+{%- include my-head.html -%}
