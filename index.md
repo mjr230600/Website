@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  News
+title:  
 cover:  true #!! Add this
 ---
 
