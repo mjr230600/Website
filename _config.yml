@@ -40,7 +40,7 @@ keywords:              []
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                   /assets/img/profile_pic.jpg
-favicon:                /assets/img/impact_sim.png
+favicon:                /favicon.ico
 apple_touch_icon:       /assets/img/impact_sim.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
